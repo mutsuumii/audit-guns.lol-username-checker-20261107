@@ -1,0 +1,20 @@
+{
+  "source_repo": "efekrbas/guns.lol-username-checker",
+  "source_url": "https://github.com/efekrbas/guns.lol-username-checker",
+  "audit_date": "2026-11-07T10:01:48.585694",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 1
+  },
+  "findings": [
+    {
+      "id": "PY-CMDI-001",
+      "name": "Command injection via shell=True",
+      "severity": "CRITICAL",
+      "cwe": "CWE-78",
+      "file": "gunslol.py",
+      "line": 498
+    }
+  ]
+}

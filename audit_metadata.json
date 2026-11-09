@@ -2,7 +2,6 @@
   "source_repo": "efekrbas/guns.lol-username-checker",
   "source_url": "https://github.com/efekrbas/guns.lol-username-checker",
   "audit_date": "2026-11-07T10:01:48.585694",
-  "ai_model": "gemini-2.0-flash",
   "findings_count": 1,
   "severity_breakdown": {
     "CRITICAL": 1
@@ -16,5 +15,6 @@
       "file": "gunslol.py",
       "line": 498
     }
-  ]
+  ],
+  "scanner_version": "1.3.0"
 }
